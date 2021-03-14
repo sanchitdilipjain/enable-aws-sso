@@ -110,6 +110,4 @@
     
     3. Now you can login to the AWS Console through your SSO portal using your customized URL
 
-        <img src="images/image19.png" class="inline"/>
-
 - Step 6. Connect to the AWS Console using your SSO endpoint
