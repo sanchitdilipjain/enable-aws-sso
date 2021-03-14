@@ -52,24 +52,16 @@
 
 - Step 3. Configure AWS SSO groups
 
-    1. Select AWS accounts section
+    1. Select on the Groups Tab in the AWS SSO console
        
-       <img src="images/image5.png" class="inline"/>
+       <img src="images/image11.png" class="inline"/>
     
-    2. Go to Permission sets tab and click Create permission set
+    2. Click Create group
        
-       <img src="images/image6.png" class="inline"/>
+       <img src="images/image12.png" class="inline"/>
     
-    3. Choose Use an existing job function policy and click Next: Details 
+    3. Type Administrators as the group name and click Create 
        
-       <img src="images/image7.png" class="inline"/>
-    
-    5. Select Next: Review :
-    
-       <img src="images/image9.png" class="inline"/>
-    
-    6. You can also modify the session duration and this will affect the amount of time a user can use the AWS Console or CLI before being automatically logged out. Otherwise, click Create to finalize the creation of the permissions set
+       <img src="images/image13.png" class="inline"/>
 
-       <img src="images/image10.png" class="inline"/>
-
-    **Note:** You can repeat the above steps to define the other roles
+    **Note:** You can repeat the above steps to define the groups for other roles
