@@ -49,6 +49,17 @@
     4. Select AdministratorAccess job function policy and click Next: Tags
 
        <img src="images/image8.png" class="inline"/>
+       
+    5. Select Next: Review :
+
+       <img src="images/image9.png" class="inline"/>
+
+    6. You can also modify the session duration and this will affect the amount of time a user can use the AWS Console or CLI before being automatically logged out. Otherwise, click Create to finalize the creation of the permissions set
+
+       <img src="images/image10.png" class="inline"/>
+
+    **Note:** You can repeat the above steps to define the other roles
+
 
 - Step 3. Configure AWS SSO groups
 
