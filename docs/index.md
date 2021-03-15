@@ -141,7 +141,7 @@
       
        <img src="images/image23_1.png" class="inline"/>
        
-       **Note** In case if you select One time password under while providing user details then you need copy below confirmation message with password and share it offline with the user
+       **Note** In case if you select One time password while providing user details then you need copy below confirmation message with password and share it offline with the user
     
        <img src="images/image23_2.png" class="inline"/>
     
