@@ -78,7 +78,7 @@
 
 - Step 4. Allocate groups to your accounts
 
-    1. Select AWS Accounts section
+    1. Select AWS Accounts section in the AWS SSO console
        
        <img src="images/image14.png" class="inline"/>
     
@@ -111,3 +111,54 @@
     3. Now you can login to the AWS Console through your SSO portal using your customized URL
 
 - Step 6. Connect to the AWS Console using your SSO endpoint
+    
+    1. Select Users section in the AWS SSO console
+       
+       <img src="images/image19.png" class="inline"/>
+    
+    2. Click Add user
+       
+       <img src="images/image20.png" class="inline"/>
+    
+    3. Provide details in the form like 
+
+        - Username 
+        - Password (Steps to setup password / One time password)
+        - Email address
+        - First Name
+        - Last Name
+        - Display Name
+        
+       Once the form is completed, click Next Groups
+       
+       <img src="images/image21.png" class="inline"/>
+
+    4. Select the Administrators group created previously and click Add user
+    
+       <img src="images/image22.png" class="inline"/>
+    
+    5. Check your email and Accept invitation
+      
+       <img src="images/image23_1.png" class="inline"/>
+       
+       **Note** In case if you select One time password under while providing user details then you need copy below confirmation message with password and share it offline with the user
+    
+       <img src="images/image23_2.png" class="inline"/>
+    
+    6. You should be redirected to a page to set your password. Once you have set your password, click Update user  
+    
+       <img src="images/image24.png" class="inline"/>
+   
+    7. Once your account is successfully activated, click Continue
+    
+    8. Click the AWS Account card to expand the list of accounts
+        
+       <img src="images/image25.png" class="inline"/>
+    
+    9. Click on your main account to view the access options for the account 
+    
+    10. Click on Management console to access your main account via the AWS Management Console
+   
+  You are now connected as your new SSO Administrator user
+  
+  <img src="images/image26.png" class="inline"/>
