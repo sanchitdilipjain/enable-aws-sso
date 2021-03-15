@@ -2,8 +2,8 @@
 
 **Introduction**
 
-- Access management accross different AWS accounts is a complicated and painful tasks but now with AWS SSO it is much more easier and simple to handle such activities. In this tutorial we will focus around configuring AWS SSO to simplify user management across multiple accounts based on their roles.
-- This tutorial is divided into below sections
+- Access management across different AWS accounts is a complicated and painful task but now with AWS SSO, it is much easier and simple to handle such activities. In this tutorial, we will focus on configuring AWS SSO to simplify user management across multiple accounts based on their roles.
+- This tutorial is divided into sections
     
     1. Switch AWS SSO for your organization
     2. Configure AWS SSO permission sets
@@ -34,15 +34,15 @@
 
 - Step 2. Configure AWS SSO permission sets
 
-    1. Select AWS accounts section
+    1. Select the AWS accounts section
        
        <img src="images/image5.png" class="inline"/>
     
-    2. Go to Permission sets tab and click Create permission set
+    2. Go to the Permission sets tab and click Create a permission set
        
        <img src="images/image6.png" class="inline"/>
     
-    3. Choose Use an existing job function policy and click Next: Details 
+    3. Choose to Use an existing job function policy and click Next: Details 
        
        <img src="images/image7.png" class="inline"/>
     
@@ -78,7 +78,7 @@
 
 - Step 4. Allocate groups to your accounts
 
-    1. Select AWS Accounts section in the AWS SSO console
+    1. Select the AWS Accounts section in the AWS SSO console
        
        <img src="images/image14.png" class="inline"/>
     
@@ -86,7 +86,7 @@
        
        <img src="images/image15.png" class="inline"/>
     
-    3. Navigate to Groups tab, select Administrators group and click Next: Permissions set
+    3. Navigate to Groups tab, select Administrators group, and click Next: Permissions set
        
        <img src="images/image16.png" class="inline"/>
     
@@ -112,7 +112,7 @@
 
 - Step 6. Connect to the AWS Console using your SSO endpoint
     
-    1. Select Users section in the AWS SSO console
+    1. Select the Users section in the AWS SSO console
        
        <img src="images/image19.png" class="inline"/>
     
@@ -137,11 +137,11 @@
     
        <img src="images/image22.png" class="inline"/>
     
-    5. Check your email and Accept invitation
+    5. Check your email and Accept the invitation
       
        <img src="images/image23_1.png" class="inline"/>
        
-       **Note** In case if you select One time password while providing user details then you need copy below confirmation message with password and share it offline with the user
+       **Note** In case if you select a One-time password while providing user details then you need to copy the below confirmation message with the password and share it offline with the user
     
        <img src="images/image23_2.png" class="inline"/>
     
