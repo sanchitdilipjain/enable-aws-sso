@@ -16,7 +16,7 @@
 
 - Step 1. Switch AWS SSO for your organization
 
-    1. Go to the <a href="https://console.aws.amazon.com/singlesignon/home"> Inventory > AWS SSO home page </a>
+    1. Go to the <a href="https://console.aws.amazon.com/singlesignon/home"> AWS SSO home page </a>
        
        <img src="images/image1.png" class="inline"/>
     
